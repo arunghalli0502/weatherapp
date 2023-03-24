@@ -1,0 +1,532 @@
+.section1
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.section1 .section11
+{
+    width: 100%;
+    height: 750px;
+    background-color: red;
+    background: url('../images/te.jpg');
+    /* background: url('data:image/jpeg;base64,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'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3%;
+}
+
+.section1 .section11 .navbar
+{
+    width: 100%;
+    height: 5%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section1 .section11 .navbar a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: auto 2% ;
+    
+    /* font-weight: bold; */
+}
+
+.section1 .section11 .wdetails
+{
+    width: 35%;
+    background-color: hsla(0,0%,100%,.200);
+    height: 350px;
+    border-radius: 10px;
+   float: right;
+   margin-right: 6%;
+   margin-top: 5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.section1 .section11 .wdetails .wdl
+{
+    width: 90%;
+    height: 90%;
+    text-align: left;
+    color: white;
+    padding: 10%;
+}
+.section1 .section11 .wdetails .wdl h3
+{
+    margin-bottom: 20%;
+}
+
+.section1 .section11 .wdetails .wdl span
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .section11 .wdetails .wdl span h1
+{
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.section1 .section11  .citywdetails
+{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    position: relative;
+    margin-top: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.temp
+{ 
+    color: white;
+    width: 17%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 3%;
+    /* background-color: green; */
+}
+
+.temp p
+{
+    font-size: 140px;
+    font-weight: bold;
+    text-align: end;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.otherdetails
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    /* background-color: greenyellow; */
+    margin-top: 1%;
+}
+
+.otherdetails .cityname
+{
+    width: 55%;
+    height: 42%;
+    /* background-color: yellow; */
+}
+
+.otherdetails .cityname h1
+{
+   color: white;
+    font-size: 48px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.otherdetails .cityname p
+{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.otherdetails .wdicon
+{
+    padding: 0px;
+    margin: 0px;
+    width: 27% ;
+    height: 42%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.otherdetails .wdicon p
+{
+   
+    margin: 0px;
+    font-size: 70px; 
+    color: white;
+  
+}
+
+
+/* ---------- ======================  section 2 ================= ----------------- */
+
+.section2
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.section2 .citycarddivison
+{
+    width: 80%;
+    height: auto;
+    margin:  5% auto;
+    /* border: 1px solid blue; */
+}
+
+.section2 .citycarddivison h1
+{
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section2 .citycarddivison .citycards
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+/* .section2 .citycarddivison .citycards .card */
+.card
+{
+    margin: 5% auto;
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 9px black;
+    border-radius: 4%;
+    transition-duration: 2s;
+}
+
+/* .section2 .citycarddivison .citycards .card:hover */
+.card:hover
+{
+    transform: scale(1.15) ;
+   transition-duration: 2s;
+}
+
+/* .section2 .citycarddivison .citycards .card img */
+.card img
+
+{
+    width: 100%;
+    height: 75%;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+/* .section2 .citycarddivison .citycards .card .carddetails */
+.card .carddetails
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 23%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+}
+
+/* .section2 .citycarddivison .citycards .card .carddetails .cardcitytemp */
+.card .carddetails .cardcitytemp
+{
+    width: 50%;
+    height: 100%;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+/* .section2 .citycarddivison .citycards .card .carddetails .cardcitytemp p */
+.carddetails .cardcitytemp p
+{
+    padding: 0px;
+    margin: 0px;
+   font-size: 45px;
+   font-weight: bold;
+}
+
+.card .carddetails .cardcitynamedate
+/* .section2 .citycarddivison .citycards .card .carddetails .cardcitynamedate */
+{
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    height: 70%;
+    /* padding-top: 15%; */
+}
+.card .carddetails .cardcitynamedate p
+/* .section2 .citycarddivison .citycards .card .carddetails .cardcitynamedate p */
+{
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+.card .carddetails .cardcitynamedate p #cityname
+/* .section2 .citycarddivison .citycards .card .carddetails .cardcitynamedate p #cityname */
+{
+    padding: 0px;
+    /* margin-top: 17%; */
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section3
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.section3 .newscarddivison
+{
+    width: 80%;
+    height: auto;
+    margin:  5% auto;
+    /* border: 1px solid blue; */
+}
+
+.section3 .newscarddivison h1
+{
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px;
+    color: darkblue;
+}
+
+.section3 .newscarddivison .newscard
+{
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+}
+
+.section3 .newscarddivison .newscard .card
+{
+    margin: 5% auto;
+    width: 28%;
+    height: 390px;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 9px black;
+    border-radius: 4%;
+    transition-duration: 2s;
+    position: relative;
+}
+
+.section3 .newscarddivison .newscard .card img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+}
+
+.section3 .newscarddivison .newscard .card .newsdetails
+{
+    position: absolute;
+    margin-top: 100%;
+    color: white;
+    padding-left: 4%;
+    text-align: left;
+    visibility: visible;
+    transition-duration: 2s;
+}
+
+
+
+
+.newsdetailshover
+{
+    /* background-color: hsla(0,0%,100%,.200); */
+    height: 100%;
+    width:100%;
+    background-color: hsla(0, 0%, 0%, 0.596);
+    margin-top: -130%;
+    border-radius: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition-duration: 2s;
+}
+
+.newsdetailshover button
+{
+    width: 70%;
+    height: 10%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+}
+
+.section3 .newscarddivison .newscard .card:hover .newsdetailshover
+{
+    visibility: visible;
+    transition-duration: 2s;
+   
+}
+.section3 .newscarddivison .newscard .card:hover .newsdetails
+{
+    visibility: hidden;
+    /* transition-duration: 2s; */
+}
+
+
+/* --- ----- ================== Section 4: Footer ===================== ------------------- */
+
+.section4
+{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.section4 .footerorgname
+{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.section4 .footerorgname p
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   
+}
+
+.section4 .footerlinks
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+   margin-right: 7%;
+}
+
+.section4 .footerlinks .links1, .section4 .footerlinks .links2
+{
+    width: 45%;
+    /* border: 1px solid blue; */
+    padding: 2%;
+}
+
+.section4 .footerlinks .links1 p, .section4 .footerlinks .links2 p
+{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* -------------------------------   section 5 -----------------------*/
+
+
+.section5
+{
+    width: 100%;
+    height: auto;
+    padding:4% 0%  ;
+    /* border: 1px solid red; */
+   
+}
+
+.section5 .searchcityweather
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section5 .searchcityweather input
+{
+    width: 50%;
+    outline: none;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+    box-shadow: 2px 2px 9px black;
+    padding-left: 2%;
+    position: relative;
+}
+
+.section5 .searchcityweather button
+{
+    position: absolute;
+    height: 50px;
+    width: 5%;
+    outline: none;
+    border: none;
+    font-size: 19px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 45%;
+   
+}
+
+.section5 .googleearthdiv
+{
+    width: 100%;
+    height: auto;
+    margin-top: 9%;
+    padding:  9% 0% ;
+   background-color: black;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.section5 .googleearthdiv img
+{
+    width: 50%;
+    height: auto;
+
+}
